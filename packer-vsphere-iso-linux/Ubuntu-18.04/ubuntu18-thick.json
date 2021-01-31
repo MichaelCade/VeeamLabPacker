@@ -2,6 +2,8 @@
   "builders": [
     {
       "type": "vsphere-iso",
+      "communicator": "ssh", 
+      "ssh_pty": "true",
   
       "vcenter_server": "{{user `vsphere-server`}}",
       "username": "{{user `vsphere-user`}}",
@@ -77,6 +79,6 @@
         "sudo touch /etc/machine-id",
         "echo 'Packer Template Build -- Complete'"
       ]
-    }
+    } 
   ]
 }
