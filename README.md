@@ -1,5 +1,5 @@
 # Creating VMware templates with Packer and VMs with Terraform
-First create a VMware template with Packer then use Terraform to provision VMs from that template
+This repository contains demo lab provisioning specific to a lab, 
 
 ## Packer templates
 Great medium post by [Guillermo Musumeci](https://medium.com/@gmusumeci/how-to-use-packer-to-build-a-windows-server-template-for-vmware-vsphere-3bc0dc9852ed)
