@@ -1,3 +1,5 @@
+Copied from Nick Charlton - Using for personal labs but links to his content below 
+
 # packer-ubuntu-2004
 
 An example [Packer][] template for building Ubuntu 20.04 LTS (Focal
